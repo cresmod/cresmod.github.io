@@ -9,3 +9,20 @@
   object-position: center 45%;
   display: block;
 }
+
+.about-banner-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 90%;
+  text-align: center;
+
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
